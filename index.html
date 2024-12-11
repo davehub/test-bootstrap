@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Fictif</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: url('https://thumb.ac-illust.com/83/838422be5d3e500b27ce8d9643335f5d_t.jpeg') no-repeat center center;
+            background-size: cover;
+            height: 80vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero-content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Restaurant Fictif</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./a_propos.html">A propos de nous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Section Héros -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Bienvenue au Restaurant Fictif</h1>
+            <p>Découvrez une expérience culinaire unique</p>
+            <a href="./menu.html" class="btn btn-primary">Voir le Menu</a>
+        </div>
+    </section>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Restaurant Fictif</h1>
+        <p>Découvrez notre menu délicieux</p>
+    </header>
+    <!-- Section Grille avec Image et Paragraphe -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/resto/resto1.jpeg" class="img-fluid" alt="Image du Restaurant">
+            </div>
+            <div class="col-md-6">
+                <h2>À propos de nous</h2>
+                <p>Bienvenue au Restaurant Fictif, où nous nous engageons à vous offrir une expérience culinaire exceptionnelle. Notre équipe de chefs talentueux prépare chaque plat avec des ingrédients frais et de haute qualité, afin de vous garantir une satisfaction totale. Que vous soyez ici pour un dîner romantique, une sortie en famille ou une réunion d'affaires, nous nous efforçons de rendre chaque visite inoubliable.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Menu en Grille -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./images/entrée/Salade César2.jpeg" class="card-img-top" alt="Image d'entrée">
+                    <div class="card-body">
+                        <h5 class="card-title">Salade César</h5>
+                        <p class="card-text">Une salade fraîche et croquante avec du poulet grillé.</p>
+                        <p class="card-text"><strong>Prix: 10€</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./images/plat princip/Steak frites2.jpeg" class="card-img-top" alt="Image de plat principal">
+                    <div class="card-body">
+                        <h5 class="card-title">Steak frites</h5>
+                        <p class="card-text">Un délicieux steak grillé accompagné de frites croustillantes.</p>
+                        <p class="card-text"><strong>Prix: 20€</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./images/dessert/Tiramisu.jpeg" class="card-img-top" alt="Image de dessert">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiramisu</h5>
+                        <p class="card-text">Un dessert italien classique avec une touche de café.</p>
+                        <p class="card-text"><strong>Prix: 8€</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Restaurant Fictif</h1>
+        <p>Découvrez notre menu délicieux</p>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Entrées</h2>
+                <ul class="list-unstyled">
+                    <a href="./images/entrée/Salade César1.jpeg"><li>Salade César</li></a>
+                    <a href="./images/entrée/Soupe à l'oignon.jpeg"><li>Soupe à l'oignon</li></a>
+                    <a href="./images/entrée/Bruschetta.jpeg"><li>Bruschetta</li></a>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Plats Principaux</h2>
+                <ul class="list-unstyled">
+                    <a href="./images/plat princip/Steak frites1.jpeg"><li>Steak frites</li></a>
+                    <a href="./images/plat princip/Poulet rôti.jpeg"><li>Poulet rôti</li></a>
+                    <a href="./images/plat princip/Lasagnes.jpeg"><li>Lasagnes</li></a>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Desserts</h2>
+                <ul class="list-unstyled">
+                    <a href="./images/dessert/Tiramisu.jpeg"><li>Tiramisu</li></a>
+                    <a href="./images/dessert/Crème brûlée.jpeg"><li>Crème brûlée</li></a>
+                    <a href="./images/dessert/Panna cotta.jpeg"><li>Panna cotta</li></a>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <!-- Section Contact -->
+    <section class="container my-5">
+        <h2>Contactez-nous</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrez votre email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Entrez votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+     <!-- Pied de Page -->
+     <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Restaurant Fictif. Tous droits réservés.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
